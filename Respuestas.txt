@@ -1,0 +1,90 @@
+A) ¿Cuántas clases se están definiendo en este ejercicio?
+
+    RTA: 3 
+        1: class Apostador:
+        2: class ComisionJuegoEspectaculos:
+        3: class Loteria:
+
+B)¿Para qué sirve la línea de código if __name__ = “ __main__ ”:?
+
+    RTA: La linea sirve para asegurar que el archivo se esta ejecutando desde su archivo de origen. 
+    Si no se esta ejecutando desde este. Entonces, no ejecutara las lineas que esten dentro del "if". 
+
+C) ¿Qué sucede si retiro la línea de la pregunta anterior en nuestro código?, ¿Este sigue
+corriendo o hay error? Explique en ambos casos.
+
+    RTA: El codigo se ejecuta sin mayor inconveniente, Ya que como mencione la linea del "if __name__ = “ __main__ ”:" hace que el codigo solo se ejcute si esta en el archivo de origen y como la condicion se cumple de todas formas entonces el codigo se sigue ejecutando.
+
+D) ¿Cuántos objetos de la clase Apostador se están creando?
+
+    Se crean dos objetos
+
+E)¿Cuáles objetos de la clase Apostador se están creando?
+
+    1. apostador1 = Apostador(1, "Juan", 302, "j@gmail.com")
+    2. apostador2 = Apostador(2, "Ricardo", 548, "r@gmail.com")
+
+f) ¿A quién está haciendo referencia la variable self de la línea 15 de la clase Apostador
+cuando se ejecuta el programa principal?
+
+    A la  instancia de tipo apostador que haya sido creada y haya usado el 
+    metodo play
+
+g) ¿Cuántos objetos de la clase Loteria se están creando? 
+
+    0
+
+h) ¿Qué imprimiría el código por parte del apostador1?
+- En la línea 10 del main.py cambiar el apostador2.deposit(500)
+por apostador2.deposit(400)
+
+    500
+    Has perdido lo que apostaste
+    100
+    300
+    Necesitas poner mas dinero en tu wallet
+    300
+
+i)Qué imprimiría el código por parte del apostador2?
+    imprime:
+        400
+        Has ganado 720.0
+        720.0
+
+j) ¿Cuáles atributos de la clase Lotería están haciendo referencia a objetos?
+
+    self.apostador = apostador
+
+k) ¿Cuáles atributos de la clase Lotería están haciendo referencia a tipos primitivos?
+
+    no entendi la pregunta
+
+l) ¿Complete las siguientes líneas para que en la clase Loteria, se implemente el método de
+clase changeProbability?
+
+    @classmethod
+    def changeProbability(self, nprobability):
+        self.probability = nprobability
+
+m) ¿Cómo sería la línea de código para llamar el método changeProbability?
+
+    From Loteria import Loteria
+
+n) ¿Es correcto si en el método changeProbability que se creó, cambiar lo siguiente?
+Explique:
+
+    no ya que en ningun momento se referencia el "cls"}
+    
+o) ¿Cuántos métodos tiene la clase Loteria después de agregarle el nuevo método?
+
+    5 metodos
+
+p)...
+
+q) Se puede pero no es aconsejable
+
+r) Float
+
+s)...
+
+t)...
